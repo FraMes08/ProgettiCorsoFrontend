@@ -1,6 +1,7 @@
 h1, h3{
-    text-align: center;
     color: white;
+    margin-top: 40px;
+    text-align: center;
 }
 
 #store-games{

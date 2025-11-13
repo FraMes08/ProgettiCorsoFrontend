@@ -1,7 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(180deg, #0F1429 0%, #242B42 50%, #0F1429 100%);
     background-attachment: fixed;
-    
 }
 
 /* header */
@@ -132,12 +139,16 @@ header{
     border-radius: 10px;
 }
 
+main {
+    flex: 1;
+}
+
 /* footer */
 
 footer{
     text-align: center;
     color: white;
-    margin: 40px 0 20px 0;
+    margin-top: auto;
     background-color: #0F1429;
     padding: 20px;
 }
